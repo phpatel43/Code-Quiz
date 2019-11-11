@@ -6,7 +6,7 @@ startBtn.addEventListener("click", function (event) {
     document.getElementById("start-screen").classList.add("d-none")
     document.getElementById("qa-screen").classList.remove("d-none")
 
-    questionHeadiing.textcontent = questions[0].title;
+    questionHeading.textcontent = questions[0].title;
     answersList.innerHTML = "";
 
     var choices = questions [0].choices;
@@ -16,3 +16,4 @@ startBtn.addEventListener("click", function (event) {
         answersList.appendChild(newChoice);
     }
 })
+
